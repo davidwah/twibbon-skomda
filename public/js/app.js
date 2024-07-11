@@ -94,7 +94,7 @@ full.canvas.addEventListener('touchmove', function (e) {
 
 full.save.addEventListener('click', function () {
   full.canvas.toBlob(function (blob) {
-    window.saveAs(blob, 'skomdatwb.png');
+    window.saveAs(blob, 'mpls2024skomda.png');
   });
 });
 
