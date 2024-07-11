@@ -1,0 +1,105 @@
+.author {
+  background: url("https://avatars.githubusercontent.com/u/115649359?v=4") no-repeat center / contain;
+  filter: drop-shadow(0 0 0.75rem crimson);
+  border: 1px dashed #fff;
+  padding: 1rem;
+  width: 50px;
+  height: 50px;
+  bottom: 9px;
+  right: 20px;
+  display:block;
+  position:fixed;
+  border-radius:50%;
+  z-index:999;
+  animation:  rotation 10s infinite linear;
+  }
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+/***
+.at-about-fab {
+  z-index: 999999;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  transform: translateX(100%);
+  transition: .2s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.at-about-fab:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: -58px;
+  width: 58px;
+  height: 48px;
+  transform: translateY(-50%);
+}
+
+.at-about-fab:hover {
+  transform: translateX(0);
+}
+
+.at-about-fab:hover .at-about-fab__meta {
+  opacity: 1;
+}
+
+.at-about-fab__thumbnail {
+  font-family: "Open Sans",sans-serif;
+  position: absolute;
+  top: 50%;
+  left: -58px;
+  background-image: url(https://savegazza.netlify.app/img/admin.ico);
+  width: 48px;
+  height: 48px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  padding: 4px;
+  box-sizing: border-box;
+  transform: translateY(-50%);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.at-about-fab__meta {
+  font-family: "Open Sans",sans-serif;
+  opacity: 0;
+  transition: .2s ease;
+}
+
+.at-about-fab__meta h2,.at-about-fab__meta p {
+  margin: 0;
+  padding:0;
+}
+
+.at-about-fab__meta h2 {
+  color: #444;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.at-about-fab__meta p {
+  color: #ccc;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.at-about-fab__meta a {
+  color: inherit;
+  font-weight: 400;
+  text-decoration: none;
+}
+****/
