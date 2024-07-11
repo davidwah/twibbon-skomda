@@ -88,8 +88,7 @@
 
     <p>
       <small>
-        <strong>Note:</strong> This app runs purely in your browser. No images or
-        data will be saved by the app.
+        <strong>Note:</strong> This application runs purely in your browser. No data is stored on this application.
       </small>
     </p>
   </div>
@@ -177,7 +176,7 @@
   </div>
 
   <p class="result"></p>
-  <p>Share this Twibbon on your social media2: <span><em>Share?</em></span>.</p>
+  <p>Share this Twibbon on your social media: <span><em>Share!</em></span>.</p>
 </article>
 
 <style>
