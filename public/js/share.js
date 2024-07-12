@@ -1,9 +1,8 @@
 let shareData = {
         title: 'MPLS 2024 #SKOMDA',
         text: 'Your Journey to Excellence',
-        // url: 'https://mpls2024.netlify.app/',
-        url: 'https://twibbon.dwp.my.id/',
-        // files: ['https://instagram.com/image.jpg']
+        // url: 'https://mpls-skomda-2024.netlify.app/',
+        url: 'https://twbn.dwp.my.id/'
       }
 
       const btn = document.querySelector('em');
