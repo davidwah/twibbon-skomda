@@ -247,7 +247,7 @@ mask.addEventListener('load', function () {
   divide.draw();
 });
 mask.setAttribute('crossOrigin', 'anonymous');
-mask.src = '/template.png';
+mask.src = '/peserta-template.png';
 
 var intro = $('#intro');
 
