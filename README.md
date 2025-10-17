@@ -16,5 +16,35 @@ Twibbon adalah sebuah aplikasi yang memungkinkan pengguna untuk membuat dan berb
 # Tujuan
 Tujuan dari project Twibbon adalah untuk memberikan kemudahan dan kreativitas dalam membuat twibbon digital yang unik dan menarik. Kami berharap bahwa aplikasi ini dapat membantu pengguna dalam meningkatkan kesadaran dan promosi terhadap berbagai kegiatan dan acara.
 
+# Backend API
+
+Aplikasi ini sekarang dilengkapi dengan Express backend yang menyediakan API untuk manajemen frame twibbon oleh admin. Fitur backend meliputi:
+
+* **Admin Authentication**: Autentikasi menggunakan Bearer token
+* **Frame Management API**: Upload, update, dan hapus frame twibbon
+* **AWS S3 Integration**: Penyimpanan frame dan metadata di S3
+* **Static File Serving**: Melayani file frontend dari direktori public/
+
+## Menjalankan Server
+
+1. Copy file `.env.example` menjadi `.env` dan isi konfigurasi:
+   ```bash
+   cp .env.example .env
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Jalankan server:
+   ```bash
+   npm run server
+   ```
+
+Server akan berjalan di `http://localhost:3000` (atau port yang dikonfigurasi di `.env`).
+
+Untuk dokumentasi lengkap API, lihat [src/server/README.md](src/server/README.md).
+
 # Kontribusi
 Kami mengundang Anda untuk bergabung dan berkontribusi pada project Twibbon ini. Jika Anda memiliki ide atau kemampuan yang dapat membantu meningkatkan aplikasi ini, silakan bergabung dan berkontribusi melalui GitHub.
