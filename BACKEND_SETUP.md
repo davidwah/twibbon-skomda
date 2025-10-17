@@ -64,7 +64,23 @@ Static files served from: /home/runner/work/twibbon-skomda/twibbon-skomda/public
 
 ## Testing the Setup
 
-### Test Health Endpoint
+### Quick Test Script
+
+Use the included test script to verify all endpoints:
+
+```bash
+./test-backend.sh [your-admin-token]
+```
+
+This will automatically test:
+- Health endpoint
+- Static file serving
+- Authentication middleware
+- All API endpoints
+
+### Manual Testing
+
+#### Test Health Endpoint
 
 ```bash
 curl http://localhost:3000/healthz
